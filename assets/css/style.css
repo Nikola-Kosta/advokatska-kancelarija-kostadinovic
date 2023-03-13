@@ -1,0 +1,740 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+
+}
+
+.cleaner {
+	clear: both;
+}
+
+#wrapper {
+	width: 100%;
+	scroll-margin: 65px 0px;
+}
+
+/*HEADER START*/
+#header {
+	width: 100%;
+	background-color: #0b173d;
+	position: fixed;
+	top: 0px;
+	color: #fff;
+	z-index: 20;
+}
+
+#h-wrap {
+	width: 1100px;
+	margin: 0px auto;
+}
+
+#logo {
+	display: inline;
+	float: left;
+}
+
+#logo img {
+	width: 145px;
+	display: inline;
+}
+
+#nav-bar {
+	width: 670px;
+	float: left;
+	font-size: 16px;
+	padding: 23px 0px;
+	margin-left: 5.3%;
+}
+
+#office-address {
+	width: 180px;
+	float: right;
+	font-size: 12px;
+	padding: 23px 0px;
+}
+
+#nav-bar ul {
+	list-style-type: none;
+
+}
+
+#nav-bar ul li {
+	display: inline;
+	padding: 0px 15px;
+}
+
+#nav-bar ul li a {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: 3px;
+}
+
+
+#nav-bar ul li a:link {
+	text-decoration: none;
+}
+
+#nav-bar ul li a:hover {
+	border-bottom: 4px solid #cc9e05;
+	border-radius: 5px;
+	transition: 0.1s;
+}
+
+#nav-bar ul li a:active {
+	width: 100%;
+	border-bottom: 4px solid #cc9e05;
+	border-radius: 5px;
+
+}
+
+#nav-bar ul li a:visited {
+	color: none;
+}
+
+/* HEADER END */
+/* MAIN START MAIN START MAIN START */
+#main {
+	width: 100%;
+	background: url(../img/lawyers.jpg);
+	background-size: cover;
+	height: 888px;
+	margin-top: 65px;
+	text-align: center;
+	z-index: 0;
+}
+
+.social {
+	font-size: 40px;
+	text-align: center;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	z-index: 10;
+}
+
+.social i {
+	color: #fff;
+}
+
+.vertical {
+	position: fixed;
+	top: 315px;
+	width: 45px;
+	text-shadow: 0px 0px 0.3px #0b173d;
+	box-shadow: 0px 0px 0.2px #0b173d;
+	margin-left: 10px;
+	padding: 2px;
+	opacity: 0.7;
+}
+
+.vertical i:hover {
+	color: #cc9e05;
+	border-color: #cc9e05;
+}
+
+#return-top i {
+	position: fixed;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	bottom: 30px;
+	right: 30px;
+	width: 45px;
+	border: 3px solid #fff;
+	border-radius: 10px;
+}
+#return-top i:hover {
+	color: #cc9e05;
+	border-color: #cc9e05;
+}
+
+#office {
+	width: 100%;
+	height: 888px;
+	background-color: #0b173d;
+	opacity: 0.7;
+}
+
+#office-lawyer {
+	position: relative;
+	top: 240px;
+	text-align: left;
+	margin-left: 110px;
+	color: #fff;
+}
+
+#office-lawyer h2 {
+	font-size: 50px;
+}
+
+#office-lawyer h1 {
+	font-size: 104px;
+	line-height: 80%;
+	color: #cc9e05;
+}
+
+#office-lawyer p {
+	font-size: 20px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.consult a {
+	color: #0b173d;
+	display: inline;
+	position: relative;
+}
+
+.consult a:link {
+	text-decoration: none;
+}
+
+.consult:hover {
+	background-color: #cc9e05;
+	font-size: 20px;
+}
+
+.upper-consult {
+	width: 190px;
+	height: 50px;
+	background-color: #e2e2e2;
+	color: #0b173d;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px 0px 5px 0px;
+	padding: 2px 7px;
+}
+
+.upper-consult p,
+.upper-consult i {
+	display: inline;
+	float: left;
+	text-align: left;
+}
+
+.upper-consult i {
+	margin: 13px 0px 0px 12px;
+}
+
+/* MAIN END*/
+/* LAWYER SERVICES START*/
+#lawyer-services {
+	width: 100%;
+	background-color: #e2e2e2;
+	margin: 0px auto;
+	scroll-margin: 65px 0px;
+}
+
+#lawyer-services-container {
+	width: 1100px;
+	margin: 0px auto;
+}
+
+#lawyer-services-title {
+	width: 500px;
+	padding: 20px 0px 20px 0px;
+	margin: 0px auto;
+}
+
+#lawyer-services-title h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#lawyer-services-description {
+	width: 920px;
+	margin: 0px auto;
+}
+
+#lawyer-services-description p {
+	color: #000;
+	text-indent: 50px;
+}
+
+#ls-region-container {
+	width: 940px;
+	margin: 20px auto 0px;
+	padding-bottom: 30px;
+}
+
+.ls-region {
+	display: inline;
+	float: left;
+	width: 230px;
+}
+
+.ls-box {
+	width: 210px;
+	height: 210px;
+	background-color: #0b173d;
+	margin: 5px auto;
+	border-radius: 5%;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+
+.ls-box:hover,
+.ls-box:focus,
+.ls-box:active {
+	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.ls-box a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.ls-box:hover {
+	background-color: #cc9e05;
+}
+
+.ls-box a:active {
+	color: #fff;
+}
+
+.ls-box a:visited {
+	color: #fff;
+}
+
+.ls-box p,
+h3 {
+	margin-top: 10px;
+}
+
+.ls-box h3 {
+	font-size: 17px;
+}
+
+.ls-box p {
+	font-size: 12px;
+
+}
+
+.ls-box-icon {
+	padding-top: 20px;
+}
+
+.ls-box-icon i {
+	font-size: 50px;
+}
+
+/* LAWYER SERVICES END*/
+/* FOOTER START*/
+#footer {
+	height: 240px;
+	background-color: #0b173d;
+	padding: 20px 0px 0px 0px;
+	color: #fff;
+}
+
+#footer h3 {
+	color: #cc9e05;
+}
+
+#footer-container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.footer-box {
+	width: 250px;
+	height: 240px;
+	display: inline;
+	float: left;
+}
+
+.footer-box ul {
+	list-style-type: none;
+	padding-top: 8px;
+}
+
+.footer-box li {
+	padding-top: 7px;
+}
+
+.footer-left {
+	margin-left: 70px;
+}
+
+.footer-mid {
+	margin-left: 40px;
+	font-size: 14px;
+}
+
+.footer-mid li {
+	font-size: 12px;
+}
+
+#upper-box-logo img {
+	width: 220px;
+}
+
+#upper-box {
+	margin-top: 60px;
+}
+
+.footer-right {
+	width: 270px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.footer-right li i {
+	font-size: 16px;
+}
+
+.footer-right li {
+	margin-top: 3px;
+}
+
+.footer-right ul li a:link {
+	text-decoration: underline;
+}
+
+.footer-box-list li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-box-list li a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-box-list li a:hover {
+	text-decoration: none;
+	color: #cc9e05;
+}
+
+.footer-box-list li a:active {
+	color: #fff;
+}
+
+.horizontal {
+	width: 59%;
+	margin: 10px auto 0px;
+	border: none;
+}
+
+.lower-consult {
+	background-color: #e2e2e2;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 12px 0px 5px;
+	padding: 5px;
+}
+
+.lower-consult a:link {
+	color: #0b173d;
+}
+
+.lower-consult:hover {
+	background-color: #cc9e05;
+}
+
+/* FOOTER END*/
+/* GENERAL START*/
+.general {
+	width: 100%;
+	background-color: #e2e2e2;
+	margin: 65px auto 0px;
+}
+
+/* GENERAL END*/
+/* ABOUT US START*/
+#about-us {
+	width: 1100px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.about-us-region {
+	width: 1100px;
+	height: 310px;
+	margin: 0px auto 10px;
+}
+
+.about-us-img {
+	width: 310px;
+	height: 310px;
+}
+
+.about-us-img img {
+	border-radius: 10px;
+}
+
+.about-us-p {
+	display: inline;
+	float: left;
+	width: 780px;
+	height: 310px;
+	border-radius: 10px;
+	background-color: #0b173d;
+}
+
+#about-us p {
+	color: #fff;
+	margin: 25px;
+	text-indent: 70px;
+	line-height: 35px;
+	text-align: justify;
+	font-size: 19px;
+}
+
+.upper-img {
+	display: inline;
+	float: left;
+}
+
+.upper-p {
+	display: inline;
+	float: right;
+
+}
+
+.lower-img {
+	display: inline;
+	float: right;
+}
+
+.lower-p {
+	display: inline;
+	float: left;
+}
+
+/* ABOUT US END*/
+/* CONTACT START*/
+#contact {
+	width: 1100px;
+	/*background-color: orange;*/
+	margin: 0px auto;
+	padding: 10px 0px 10px;
+}
+
+#contact-left {
+	width: 430px;
+	height: 600px;
+	display: inline;
+	float: left;
+	background-color: #0b173d;
+	border-radius: 10px;
+}
+
+#contact-left ul {
+	padding: 30px;
+}
+
+#contact-left ul li {
+	list-style: none;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+#contact-left ul li a:link {
+	color: #fff;
+}
+
+#contact-right {
+	width: 660px;
+	height: 600px;
+	display: inline;
+	float: right;
+	background-color: #0b173d;
+	border-radius: 10px;
+}
+
+#contact-title {
+	margin: 20px auto 0px;
+	color: #fff;
+	text-align: center;
+}
+
+#contact-right form {
+	color: #fff;
+	text-align: center;
+}
+
+#contact-right input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 85%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: none;
+}
+
+#contact-right label {
+	padding: 12px 0px 12px 0;
+	display: inline-block;
+}
+
+#contact-right input[type=submit] {
+	background-color: #fff;
+	color: #0b173d;
+	padding: 12px 50px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 20px 23px 0px 0px;
+	float: right;
+}
+
+#contact-right input[type=submit]:hover {
+	background-color: #cc9e05;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+}
+
+#contact-right textarea {
+	height: 200px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* CONTACT END*/
+/* AUTHOR START */
+#author {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+#author-region img {
+	border-radius: 50%;
+	border: 5px solid #cc9e05;
+}
+
+#author-picture {
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+
+#author-text {
+	width: 1000px;
+}
+
+#author-text p {
+	text-align: justify;
+	font-size: 19px;
+	margin: 10px 0px 20px;
+	text-indent: 70px;
+}
+
+#author-text h2 {
+	background-color: #0b173d;
+	color: #fff;
+	padding-top: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#author-text ul li {
+	list-style-type: none;
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+#author-text ul {
+	background-color: #0b173d;
+	color: #fff;
+}
+
+/* AUTHOR END */
+/* LAWYER SERVICE PAGE START */
+.lawyer-service-page {
+	width: 100%;
+	background-color: #e2e2e2;
+}
+
+.lawyer-service-page i {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.lawyer-service-page h2 {
+	font-size: 30px;
+}
+
+.lawyer-service-page-container {
+	width: 1000px;
+	margin: 65px auto 0px;
+	text-align: center;
+	padding: 10px;
+	/*CHECK CHECK*/
+}
+
+.lawyer-service-upper {
+	width: 1000px;
+	padding: 15px 0px 15px;
+	background-color: #0b173d;
+	border-radius: 10px;
+	color: #cc9e05;
+}
+
+.lawyer-service-lower {
+	width: 1000px;
+	padding: 15px 0px 15px;
+	margin-top: 10px;
+	background-color: #0b173d;
+	border-radius: 10px;
+	color: #cc9e05;
+}
+
+.lawyer-service-lower p {
+	text-align: justify;
+	text-indent: 70px;
+	margin: 10px 40px 15px;
+	font-size: 20px;
+}
+
+.lawyer-service-consult {
+	margin: 0px auto;
+}
+
+.lawyer-service-consult p {
+	margin: 0px;
+	text-align: center;
+	text-indent: 0;
+}
+
+#reposition {
+	margin-top: 66px;
+}
+
+/* LAWYER SERVICE PAGE END */
+/* CONTACT PAGE START */
