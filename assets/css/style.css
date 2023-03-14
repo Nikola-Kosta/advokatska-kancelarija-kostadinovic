@@ -297,7 +297,12 @@
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
-
+.ls-box a{
+	display:block;
+	position: absolute;
+	width: 210px;
+	height: 210px;
+}
 .ls-box a:link {
 	text-decoration: none;
 	color: #fff;
