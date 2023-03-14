@@ -103,7 +103,6 @@
 	height: 888px;
 	margin-top: 65px;
 	text-align: center;
-	z-index: 0;
 }
 
 .social {
@@ -111,7 +110,6 @@
 	text-align: center;
 	border: 3px solid #fff;
 	border-radius: 10px;
-	z-index: 10;
 }
 
 .social i {
@@ -145,6 +143,7 @@
 	border: 3px solid #fff;
 	border-radius: 10px;
 }
+
 #return-top i:hover {
 	color: #cc9e05;
 	border-color: #cc9e05;
@@ -246,13 +245,15 @@
 }
 
 #lawyer-services-description {
-	width: 920px;
+	width: 910px;
 	margin: 0px auto;
 }
 
 #lawyer-services-description p {
 	color: #000;
 	text-indent: 50px;
+	text-align: justify;
+	line-height: 150%;
 }
 
 #ls-region-container {
@@ -266,7 +267,9 @@
 	float: left;
 	width: 230px;
 }
-
+.first-ls-region{
+	margin-left: 15px;
+}
 .ls-box {
 	width: 210px;
 	height: 210px;
@@ -337,7 +340,7 @@ h3 {
 /* LAWYER SERVICES END*/
 /* FOOTER START*/
 #footer {
-	height: 240px;
+	height: 270px;
 	background-color: #0b173d;
 	padding: 20px 0px 0px 0px;
 	color: #fff;
@@ -523,7 +526,6 @@ h3 {
 /* CONTACT START*/
 #contact {
 	width: 1100px;
-	/*background-color: orange;*/
 	margin: 0px auto;
 	padding: 10px 0px 10px;
 }
@@ -651,21 +653,22 @@ textarea {
 #author-text p {
 	text-align: justify;
 	font-size: 19px;
-	margin: 10px 0px 20px;
+	margin: 20px 0px 30px;
 	text-indent: 70px;
+	line-height: 150%;
 }
 
 #author-text h2 {
 	background-color: #0b173d;
 	color: #fff;
-	padding-top: 10px;
+	padding: 20px 0px 0px 20px;
 	border-radius: 20px 20px 0px 0px;
 }
 
 #author-text ul li {
 	list-style-type: none;
 	font-size: 16px;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
 #author-text ul {
@@ -679,17 +682,20 @@ textarea {
 	width: 100%;
 	background-color: #e2e2e2;
 }
-.lawyer-service-page h4{
+
+.lawyer-service-page h4 {
 	text-align: left;
 	font-size: 20px;
 	margin: 0px 0px 10px 40px;
 }
-.lawyer-service-page ul{
+
+.lawyer-service-page ul {
 	list-style-type: disc;
 	text-align: left;
-	margin: 0px 0px 20px 70px;
+	margin: 20px 0px 20px 70px;
 }
-.lawyer-service-page ul li{
+
+.lawyer-service-page ul li {
 	padding-bottom: 10px;
 	font-size: 18px;
 }
@@ -720,17 +726,17 @@ textarea {
 
 .lawyer-service-lower {
 	width: 1000px;
-	padding: 15px 0px 15px;
+	padding: 25px 0px 20px;
 	margin-top: 10px;
 	background-color: #0b173d;
 	border-radius: 10px;
-	color: #cc9e05;
+	color: #fff;
 }
 
 .lawyer-service-lower p {
 	text-align: justify;
 	text-indent: 70px;
-	margin: 10px 40px 15px;
+	margin: 10px 40px 20px;
 	font-size: 18px;
 }
 
@@ -747,6 +753,4 @@ textarea {
 #reposition {
 	margin-top: 66px;
 }
-
 /* LAWYER SERVICE PAGE END */
-/* CONTACT PAGE START */
