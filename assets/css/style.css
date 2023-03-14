@@ -393,8 +393,15 @@ h3 {
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
-	width: 30px;
-	margin-left: 70px;
+	width: 80px;
+	margin: 10px auto;
+}
+.box-xml i{
+	display: inline;
+	float: left;
+}
+.box-xml .fa-rss{
+	margin-left: 10px;
 }
 .box-xml a{
 	text-decoration: none;

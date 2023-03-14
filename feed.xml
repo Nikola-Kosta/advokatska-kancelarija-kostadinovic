@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Website RSS Feed</title>
+    <link> </link>
+    <description>A feed of the latest articles on my website.</description>
+    <lastBuildDate>Mon, 14 Mar 2023 00:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Pogledajte naš veb sajt!</title>
+      <link>https://nikola-kosta.github.io/advokatska-kancelarija-kostadinovic/index.html</link>
+      <description>My first article.</description>
+      <pubDate>Mon, 14 Mar 2023 12:00:00 -0500</pubDate>
+    </item>
+    
+  </channel>
+</rss>
