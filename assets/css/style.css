@@ -679,6 +679,20 @@ textarea {
 	width: 100%;
 	background-color: #e2e2e2;
 }
+.lawyer-service-page h4{
+	text-align: left;
+	font-size: 20px;
+	margin: 0px 0px 10px 40px;
+}
+.lawyer-service-page ul{
+	list-style-type: disc;
+	text-align: left;
+	margin: 0px 0px 20px 70px;
+}
+.lawyer-service-page ul li{
+	padding-bottom: 10px;
+	font-size: 18px;
+}
 
 .lawyer-service-page i {
 	font-size: 60px;
@@ -694,7 +708,6 @@ textarea {
 	margin: 65px auto 0px;
 	text-align: center;
 	padding: 10px;
-	/*CHECK CHECK*/
 }
 
 .lawyer-service-upper {
@@ -718,7 +731,7 @@ textarea {
 	text-align: justify;
 	text-indent: 70px;
 	margin: 10px 40px 15px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .lawyer-service-consult {
