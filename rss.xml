@@ -4,12 +4,12 @@
     <title>My Website RSS Feed</title>
     <link> </link>
     <description>A feed of the latest articles on my website.</description>
-    <lastBuildDate>Mon, 14 Mar 2023 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2023 00:00:00 -0500</lastBuildDate>
     <item>
       <title>Pogledajte naš veb sajt!</title>
       <link>https://nikola-kosta.github.io/advokatska-kancelarija-kostadinovic/index.html</link>
-      <description>My first article.</description>
-      <pubDate>Mon, 14 Mar 2023 12:00:00 -0500</pubDate>
+      <description>Advokatska kancelarija Kostadinović predstavlja advokatsku kancelariju sa dugom tradicijom. Kancelarija je osnovana 1993. godine i do današnjeg dana sa uspehom i velikim zadovoljstvom pruža pravnu pomoć velikom broju klijenata u svim oblastima prava. Naš tim vrhunskih stručnjaka specijalizovanih za različite pravne oblasti će zahvaljujući svom dugogodišnjem iskustvu sasvim sigurno pronaći rešenje za svaki pravni problem sa kojim se možete suočiti.</description>
+      <pubDate>Wed, 15 Mar 2023 02:30:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
