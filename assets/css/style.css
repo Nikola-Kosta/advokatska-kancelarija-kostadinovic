@@ -267,9 +267,11 @@
 	float: left;
 	width: 230px;
 }
-.first-ls-region{
+
+.first-ls-region {
 	margin-left: 15px;
 }
+
 .ls-box {
 	width: 210px;
 	height: 210px;
@@ -297,12 +299,14 @@
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
-.ls-box a{
-	display:block;
+
+.ls-box a {
+	display: block;
 	position: absolute;
 	width: 210px;
 	height: 210px;
 }
+
 .ls-box a:link {
 	text-decoration: none;
 	color: #fff;
@@ -389,30 +393,36 @@ h3 {
 	font-size: 12px;
 }
 
-.box-xml{
+.box-xml {
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
 	width: 80px;
 	margin: 10px auto;
 }
-.box-xml i{
+
+.box-xml i {
 	display: inline;
 	float: left;
 }
-.box-xml .fa-rss{
+
+.box-xml .fa-rss {
 	margin-left: 10px;
 }
-.box-xml a{
+
+.box-xml a {
 	text-decoration: none;
 	color: #fff;
 }
-.box-xml a:hover{
+
+.box-xml a:hover {
 	color: #cc9e05;
 }
-.box-xml a:active{
+
+.box-xml a:active {
 	color: #fff;
 }
+
 #upper-box-logo img {
 	width: 220px;
 }
@@ -782,4 +792,5 @@ textarea {
 #reposition {
 	margin-top: 66px;
 }
+
 /* LAWYER SERVICE PAGE END */
