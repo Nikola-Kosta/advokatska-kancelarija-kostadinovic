@@ -695,6 +695,7 @@ textarea {
 	margin: 20px 0px 30px;
 	text-indent: 70px;
 	line-height: 150%;
+	
 }
 
 #author-text h2 {
@@ -713,6 +714,8 @@ textarea {
 #author-text ul {
 	background-color: #0b173d;
 	color: #fff;
+	
+	border-radius: 0px 0px 0px 30px;
 }
 
 /* AUTHOR END */
